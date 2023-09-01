@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ .cursor{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+    mix-blend-mode: difference;
+}
+
+#main h1{
+    font-weight: 700;
+font-size: 7vw;
+color: aliceblue;
+letter-spacing: 2vw;
+
+}
+#main h5{
+    color: aliceblue;
+    letter-spacing: 0.7vw;
+    font-weight: 200;
+    text-transform: capitalize;
+}
